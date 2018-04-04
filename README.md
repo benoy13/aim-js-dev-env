@@ -1,2 +1,2 @@
 # aim-js-dev-env
-JavaScript development environment 
+JavaScript Node js development environment 

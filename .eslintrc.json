@@ -5,17 +5,16 @@
     "plugin:import/errors",
     "plugin:import/warnings"
   ],
-  "parserOptions":{
-    "ecmaVersion":7,
+  "parserOptions": {
+    "ecmaVersion": 7,
     "sourceType": "module"
   },
-  "env":{
+  "env": {
     "browser": true,
-    "node":true,
-    "mocha":true
+    "node": true,
+    "mocha": true
   },
-  "rules":{
-    "no-console":1
-
+  "rules": {
+    "no-console": 1
   }
 }

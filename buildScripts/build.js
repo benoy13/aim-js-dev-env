@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-
+// srcipt for production
 import webpack from 'webpack';
 import webpackConfig from '../webpack.config.prod';
 import chalk from 'chalk';

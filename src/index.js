@@ -1,6 +1,6 @@
-import './index.css';
+import './public/css/index.css';
 
-import {getUsers, deleteUser} from './api/userApi';
+import {getUsers, deleteUser} from  './api/userApi';
 
 // Populate table of users via API call.
 getUsers().then(result => {

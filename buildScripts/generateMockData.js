@@ -1,14 +1,13 @@
-/*
-This script generates mock data for local development.
-So you don't have to point to actual API,
-but you can have a realistic, randomized data,
-and you get rapid loads due to local, static data
-*/
+/* This script generates mock data for local development.
+   This way you don't have to point to an actual API,
+   but you can enjoy realistic, but randomized data,
+   and rapid page loads due to local, static data.
+ */
 
 /* eslint-disable no-console */
 
 import jsf from 'json-schema-faker';
-import { schema } from './mockDataSchema';
+import {schema} from './mockDataSchema';
 import fs from 'fs';
 import chalk from 'chalk';
 

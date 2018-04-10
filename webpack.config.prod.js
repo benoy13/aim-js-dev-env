@@ -33,7 +33,7 @@ export default {
 
     // Create HTML file that includes reference to bundled JS.
     new HtmlWebpackPlugin({
-      template: 'src/index.html',
+      template: 'src/views/index.html',
       minify: {
         removeComments: true,
         collapseWhitespace: true,

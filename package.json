@@ -25,6 +25,7 @@
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
+    "@hapi/cryptiles": "^4.2.1",
     "tar": "^4.4.13",
     "whatwg-fetch": "1.0.0"
   },
